@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kontrollpunkte",
+      "app_id": "6a4f453d1ca6120b9167ffc9",
+      "path": "/rest/apps/6a4f453d1ca6120b9167ffc9/records",
+      "allowed_fields": [
+        "name",
+        "kategorie",
+        "sollwert",
+        "beschreibung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kontrollpunkte — Formular"
+    },
+    {
+      "entity": "hygiene_kontrolle",
+      "app_id": "6a4f454050c9609bef0238ae",
+      "path": "/rest/apps/6a4f454050c9609bef0238ae/records",
+      "allowed_fields": [
+        "datum",
+        "messwert",
+        "in_ordnung",
+        "kontrolleur_vorname",
+        "kontrolleur_nachname",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Hygiene-Kontrolle — Formular"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "KontrollpunkteDialog.tsx": {
+    "name": "z. B. Sterilisator-Temperatur",
+    "kategorie": "Wähle eine Kategorie",
+    "sollwert": "z. B. 121°C oder 15–25°C",
+    "beschreibung": "Worum geht es, wie wird gemessen, worauf achten..."
+  },
+  "HygieneKontrolleDialog.tsx": {
+    "datum": "Wann wurde kontrolliert?",
+    "kontrollpunkt": "Welchen Kontrollpunkt prüfen?",
+    "messwert": "z. B. 121,5°C oder bestanden",
+    "in_ordnung": "Passt alles?",
+    "kontrolleur_vorname": "z. B. Anna",
+    "kontrolleur_nachname": "z. B. Müller",
+    "bemerkung": "Auffälligkeiten, Abweichungen, Nachbesserungen..."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Kontrollpunkte": {
+      "placeholders_set": 4,
+      "defaults_keys": ["kategorie"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Konfiguration von Hygiene-Prüfpunkten). Alle Felder sind kategorisch oder beschreibend — keine numerischen Aggregate, keine Applookup-Preis-Ketten, keine Datumsdifferenzen zu berechnen. Kategorie erhält Default 'Sonstiges' zur schnelleren Erfassung."
+    },
+    "Hygiene-Kontrolle": {
+      "placeholders_set": 7,
+      "defaults_keys": ["datum", "in_ordnung"],
+      "computed_keys": [],
+      "reason": "Dokumentation einer Hygiene-Prüfung ohne berechnete Felder. Applookup verweist auf reine Stammdaten (Kontrollpunkte). Datum wird auf 'heute' vorbelegt, Bool-Feld 'in_ordnung' auf 'true' (optimistisch — die meisten Kontrollen verlaufen plangemäß). Keine Preis-, Kosten- oder Mengen-Felder, daher kein computed notwendig."
+    }
+  }
+}
